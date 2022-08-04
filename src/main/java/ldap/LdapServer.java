@@ -12,7 +12,7 @@ import org.apache.directory.server.protocol.shared.transport.TcpTransport;
 
 public class LdapServer {
 
-    private static final String DEFAULT_LDIF_FILENAME = "fuck.ldif";
+    private static final String DEFAULT_LDIF_FILENAME = "ldap/fuck.ldif";
 
     private DirectoryService directoryService;
     private org.apache.directory.server.ldap.LdapServer ldapServer;
